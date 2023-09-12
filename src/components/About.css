@@ -1,0 +1,29 @@
+/* src/components/About.css */
+
+.about {
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background color */
+}
+
+.about h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.4;
+}
+
+.details {
+  display: none; /* Initially hide additional details */
+}
+
+.show-details-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
